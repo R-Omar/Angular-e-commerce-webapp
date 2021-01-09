@@ -1,0 +1,13 @@
+.img {
+  object-fit: scale-down; /*this makes the image in src fit to the size specified below*/
+  width: 270px; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mat-card-title {
+  font-size: 17px;
+  width: 265px;
+}

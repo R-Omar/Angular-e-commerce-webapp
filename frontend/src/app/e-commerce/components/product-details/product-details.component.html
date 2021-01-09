@@ -1,0 +1,40 @@
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!-- ---- Include the above in your HEAD tag -------- -->
+
+<div class="container">
+  <div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">{{ product.name }}</div>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6 product_img">
+              <img [src]="product.image" class="img-responsive" />
+            </div>
+            <div class="col-md-6 product_content">
+              <h4>
+                Ref: <span>{{ product._id }}</span>
+              </h4>
+              <p>Description:<br />{{ product.description }}</p>
+              <h3><span></span> Prix : {{ product.price }} €</h3>
+              <div class="space-ten"></div>
+              <div>
+                <button (click)="addToCart()" mat-raised-button color="warn">
+                  <mat-icon>shopping_cart</mat-icon> Ajouter au panier
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

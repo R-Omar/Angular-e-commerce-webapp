@@ -1,0 +1,165 @@
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#193da8" align="center">
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            align="center"
+            valign="top"
+            style="padding: 40px 10px 40px 10px"
+          ></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#193da8" align="center" style="padding: 0px 10px 0px 10px">
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="center"
+            valign="top"
+            style="
+              padding: 40px 20px 20px 20px;
+              border-radius: 4px 4px 0px 0px;
+              color: #111111;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 450;
+              font-size: x-large;
+            "
+          >
+            <h1 style="font-size: 35px; font-weight: 400; margin: 2">
+              S'identifier
+            </h1>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px">
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="left"
+            style="
+              padding: 20px 30px 40px 30px;
+              color: #666666;
+              font-family: 'Lato', Helvetica, Arial, sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 25px;
+            "
+          >
+            <p style="margin: 0"></p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="left"
+            style="
+              padding: 20px 30px 40px 30px;
+              color: #666666;
+              font-family: 'Lato', Helvetica, Arial, sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 25px;
+            "
+          >
+            <form
+              [formGroup]="loginForm"
+              (ngSubmit)="onFormSubmit(loginForm.value)"
+            >
+              <mat-form-field class="full-width-input">
+                <input
+                  matInput
+                  type="email"
+                  placeholder="Adresse e-mail"
+                  formControlName="email"
+                  [errorStateMatcher]="matcher"
+                />
+                <mat-error>
+                  <span
+                    *ngIf="
+                      !loginForm.get('email').valid &&
+                      loginForm.get('email').touched
+                    "
+                    >Adresse e-mail non valide.</span
+                  >
+                </mat-error>
+              </mat-form-field>
+              <br />
+              <br />
+              <mat-form-field class="full-width-input">
+                <input
+                  matInput
+                  type="password"
+                  placeholder="Mot de passe"
+                  formControlName="password"
+                  [errorStateMatcher]="matcher"
+                />
+                <mat-error>
+                  <span
+                    *ngIf="
+                      !loginForm.get('password').valid &&
+                      loginForm.get('password').touched
+                    "
+                    >Entrez votre mot de passe.</span
+                  >
+                </mat-error> </mat-form-field
+              ><br /><br /><br />
+              <p *ngIf="errormessage" style="margin-left: 80px; color: red">
+                You must validate your account first.
+              </p>
+
+              <div class="form-actions">
+                <a class="home-link" href="/">
+                  Retourner à la page d'accueil
+                </a>
+                <div>
+                  <button
+                    type="button"
+                    class="register-btn"
+                    routerLink="/register"
+                    mat-stroked-button
+                  >
+                    Créer un compte
+                  </button>
+                  <button
+                    type="submit"
+                    [disabled]="!loginForm.valid"
+                    mat-flat-button
+                    color="primary"
+                  >
+                    S'identifier
+                  </button>
+                </div>
+              </div>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

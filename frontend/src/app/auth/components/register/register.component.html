@@ -1,0 +1,192 @@
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!-- LOGO -->
+  <tr>
+    <td bgcolor="#193da8" align="center">
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            align="center"
+            valign="top"
+            style="padding: 40px 10px 40px 10px"
+          ></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td
+      bgcolor="#193da8
+
+            "
+      align="center"
+      style="padding: 0px 10px 0px 10px"
+    >
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="center"
+            valign="top"
+            style="
+              padding: 40px 20px 20px 20px;
+              border-radius: 4px 4px 0px 0px;
+              color: #111111;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 450;
+              font-size: x-large;
+            "
+          >
+            <h1 style="font-size: 35px; font-weight: 400; margin: 2">
+              Créer un compte
+            </h1>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px">
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        style="max-width: 600px"
+      >
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="left"
+            style="
+              padding: 20px 30px 40px 30px;
+              color: #666666;
+              font-family: 'Lato', Helvetica, Arial, sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 25px;
+            "
+          >
+            <p style="margin: 0"></p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            bgcolor="#ffffff"
+            align="left"
+            style="
+              padding: 20px 30px 40px 30px;
+              color: #666666;
+              font-family: 'Lato', Helvetica, Arial, sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 25px;
+            "
+          >
+            <form
+              [formGroup]="registerForm"
+              (ngSubmit)="onFormSubmit(registerForm.value)"
+            >
+              <br /><br />
+              <mat-form-field class="full-width">
+                <input
+                  matInput
+                  type="name"
+                  placeholder=" Votre nom"
+                  formControlName="name"
+                  [errorStateMatcher]="matcher"
+                />
+                <mat-error>
+                  <span
+                    *ngIf="
+                      !registerForm.get('name').valid &&
+                      registerForm.get('name').touched
+                    "
+                    >Saisissez votre nom</span
+                  >
+                </mat-error>
+              </mat-form-field>
+              <br /><br />
+              <mat-form-field class="full-width">
+                <input
+                  matInput
+                  type="email"
+                  placeholder="E-mail"
+                  formControlName="email"
+                  [errorStateMatcher]="matcher"
+                />
+                <mat-error>
+                  <span
+                    *ngIf="
+                      !registerForm.get('email').valid &&
+                      registerForm.get('email').touched
+                    "
+                  >
+                    Saisissez votre adresse e-mail
+                  </span>
+                </mat-error>
+              </mat-form-field>
+
+              <br /><br />
+              <mat-form-field class="full-width">
+                <input
+                  matInput
+                  type="password"
+                  placeholder="Mot de passe"
+                  formControlName="password"
+                  [errorStateMatcher]="matcher"
+                />
+                <mat-error>
+                  <span
+                    *ngIf="
+                      !registerForm.get('password').valid &&
+                      registerForm.get('password').touched
+                    "
+                  >
+                    Entrez votre mot de passe
+                  </span>
+                </mat-error>
+              </mat-form-field>
+              <br /><br />
+
+              <div class="form-actions">
+                <a class="home-link" href="/">
+                  Retourner à la page d'accueil
+                </a>
+                <div>
+                  <button
+                    type="button"
+                    class="login-btn"
+                    routerLink="/login"
+                    mat-stroked-button
+                  >
+                    Identifiez-vous
+                  </button>
+                  <button
+                    type="submit"
+                    [disabled]="!registerForm.valid"
+                    mat-flat-button
+                    color="primary"
+                  >
+                    Créer
+                  </button>
+                </div>
+              </div>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

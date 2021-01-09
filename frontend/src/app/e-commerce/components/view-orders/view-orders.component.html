@@ -1,0 +1,74 @@
+<mat-toolbar color="default">
+  <span>Vos commandes</span>
+</mat-toolbar>
+
+<mat-divider> </mat-divider>
+
+<ng-container *ngIf="orders.length > 0; else noOrders">
+  <div class="orders-list">
+    <mat-accordion>
+      <mat-expansion-panel
+        *ngFor="let order of orders; let i = index"
+        [expanded]="i === 0"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <div>
+              <div class="order-date">
+                Commande effectuée le
+                {{ order.orderDate | date: "short" }}
+              </div>
+              <div class="order-ref">#{{ order._id }}</div>
+            </div>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="order-items">
+          <mat-grid-list cols="8" rowHeight="100px">
+            <div *ngFor="let item of order.items; let i = index">
+              <mat-grid-tile colspan="1">
+                <img class="item-image" src="{{ item.product.image }}" />
+              </mat-grid-tile>
+              <mat-grid-tile colspan="4">
+                <div class="align-left">{{ item.product.name }}</div>
+              </mat-grid-tile>
+              <mat-grid-tile colspan="1">
+                {{ item.quantity }} x {{ item.product.price }} €
+              </mat-grid-tile>
+              <mat-grid-tile colspan="1">
+                {{ item.quantity * item.product.price }}€
+              </mat-grid-tile>
+              <mat-grid-tile colspan="1">
+                <mat-icon>check_circle</mat-icon>
+              </mat-grid-tile>
+            </div>
+          </mat-grid-list>
+
+          <mat-grid-list cols="8" rowHeight="100px">
+            <mat-grid-tile colspan="5"></mat-grid-tile>
+            <mat-grid-tile colspan="1">
+              <div>
+                <div>Sous-total :</div>
+                <div>({{ getOderItemsCount(order) }} articles)</div>
+              </div>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" class="sub-total">
+              {{ getOderTotal(order) }} €</mat-grid-tile
+            >
+            <mat-grid-tile colspan="1">En cours de traitement</mat-grid-tile>
+          </mat-grid-list>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</ng-container>
+
+<ng-template #noOrders>
+  <div class="no-orders">
+    <div>Aucune commande.</div>
+    <button routerLink="/" mat-stroked-button color="primary">
+      <mat-icon>shopping_cart</mat-icon> Continuer vos achats
+    </button>
+  </div>
+</ng-template>
