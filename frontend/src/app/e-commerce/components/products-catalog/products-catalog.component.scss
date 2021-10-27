@@ -1,0 +1,21 @@
+.product-section {
+  margin: 200px 0px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+}
+
+mat-toolbar {
+  justify-content: space-between;
+}
+
+#filter {
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 500px;
+  border: 2px solid grey;
+  color: #6f768d;
+  padding: 0 8px;
+}

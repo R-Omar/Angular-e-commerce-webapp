@@ -1,0 +1,64 @@
+.mat-grid-tile {
+  background-color: white;
+}
+
+.item-image {
+  //width: 100%;
+  max-height: 100%;
+  max-width: 75px;
+  object-fit: scale-down;
+}
+
+.item-info {
+  flex: 1 1 0%;
+  padding: 0 16px;
+
+  .item-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .item-stock {
+    color: #82ca9c;
+    font-weight: 500;
+  }
+}
+
+.item-quantity {
+  flex: 1 1 0%;
+  align-items: center;
+
+  button {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    min-width: 24px;
+  }
+
+  input {
+    width: 16px;
+    text-align: center;
+    padding: 4px;
+    margin: 0 4px;
+  }
+}
+
+.item-total {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sub-total {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.empty-cart {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+
+  button {
+    margin-top: 24px;
+  }
+}

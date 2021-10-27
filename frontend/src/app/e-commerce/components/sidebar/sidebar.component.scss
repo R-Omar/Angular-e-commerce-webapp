@@ -1,0 +1,26 @@
+.profile-card {
+  text-align: center;
+  padding: 0 20px;
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.pd-left-16 {
+  padding-left: 16px;
+}
+
+a {
+  padding-left: 100px;
+}
+
+.mat-subheader {
+  color: #3f51b5;
+}

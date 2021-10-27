@@ -1,0 +1,25 @@
+<div fxFlex="100%">
+  <mat-card class="mat-elevation-z4">
+    <mat-card-header>
+      <mat-card-title>{{ product.name }}</mat-card-title>
+    </mat-card-header>
+    <img class="img" mat-card-image [src]="product.image" />
+    <mat-card-content>
+      <p>Prix : {{ product.price }} €</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button
+        *ngIf="isAdmin"
+        (click)="addToCart()"
+        mat-raised-button
+        color="warn"
+      >
+        Ajouter au panier
+      </button>
+      <button (click)="onNavigate(product._id)" mat-raised-button>
+        Détails
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

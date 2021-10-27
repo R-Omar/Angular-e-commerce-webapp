@@ -1,0 +1,41 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="onToggleSideBar()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span> E-commerce </span>
+  <span class="spacer"></span>
+
+  <button mat-button routerLink="/" routerLinkActive="active-link">
+    <mat-icon>home</mat-icon>
+    Acceuil
+  </button>
+
+  <button
+    mat-button
+    routerLink="/login"
+    routerLinkActive="active-link"
+    *ngIf="!token"
+  >
+    <mat-icon>power_settings_new</mat-icon>
+    Se connecter
+  </button>
+  <button
+    mat-button
+    routerLink="/login"
+    routerLinkActive="active-link"
+    *ngIf="token"
+  >
+    <mat-icon>exit_to_app</mat-icon>
+    Déconnectez-vous
+  </button>
+
+  <button mat-button routerLink="/cart-details" routerLinkActive="active-link">
+    <mat-icon
+      matBadge="{{ cartItemsCount() }}"
+      matBadgePosition="before"
+      matBadgeColor="warn"
+      >shopping_cart</mat-icon
+    >
+    Panier
+  </button>
+</mat-toolbar>

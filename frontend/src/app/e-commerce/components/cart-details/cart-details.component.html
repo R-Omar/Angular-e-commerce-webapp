@@ -1,0 +1,93 @@
+<div>
+  <mat-toolbar color="default">
+    <span>Votre Panier</span>
+  </mat-toolbar>
+  <mat-divider> </mat-divider>
+  <ng-container *ngIf="getCartItemsCount() > 0; else emptyCart">
+    <mat-grid-list cols="10" rowHeight="100px">
+      <div *ngFor="let item of cartItems; let i = index">
+        <mat-grid-tile colspan="1"
+          ><img class="item-image" src="{{ item.product.image }}"
+        /></mat-grid-tile>
+        <mat-grid-tile colspan="5">
+          <div class="item-info">
+            <h3 class="item-name">{{ item.product.name }}</h3>
+            <p class="item-stock">
+              Il reste {{ item.product.quantity }} exemplaire(s) en stock.
+            </p>
+          </div>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2">
+          <div class="item-quantity">
+            <button
+              mat-stroked-button
+              (click)="decreaseItemQuantity(item.product)"
+              [disabled]="item.quantity <= 1"
+            >
+              -
+            </button>
+            <input readonly class="item-quantity" value="{{ item.quantity }}" />
+            <button
+              mat-stroked-button
+              [disabled]="item.quantity >= item.product.quantity"
+              (click)="increaseItemQuantity(item.product)"
+            >
+              +
+            </button>
+            x {{ item.product.price }} €
+          </div>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="1">
+          <div class="item-total">
+            <span>{{ item.quantity * item.product.price }}€</span>
+          </div>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="1">
+          <button
+            mat-icon-button
+            color="warn"
+            (click)="deleteItem(item.product)"
+          >
+            <mat-icon>cancel</mat-icon>
+          </button>
+        </mat-grid-tile>
+      </div>
+    </mat-grid-list>
+
+    <mat-divider> </mat-divider>
+
+    <mat-grid-list cols="10" rowHeight="100px">
+      <mat-grid-tile colspan="1"></mat-grid-tile>
+      <mat-grid-tile colspan="5"></mat-grid-tile>
+      <mat-grid-tile colspan="2">
+        <div class="sub-total">
+          <div>Sous-total :</div>
+          <div>({{ getCartItemsCount() }} articles)</div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" class="sub-total"
+        >{{ getCartItemsTotal() }}€</mat-grid-tile
+      >
+      <mat-grid-tile colspan="1">
+        <ng-container *ngIf="isUserLoggedIn(); else logIn">
+          <button mat-raised-button color="primary" (click)="submitOrder()">
+            <mat-icon>local_shipping</mat-icon> Commander
+          </button>
+        </ng-container>
+        <ng-template #logIn>
+          <button mat-raised-button color="primary" routerLink="/login">
+            <mat-icon>power_settings_new</mat-icon> Se connecter
+          </button>
+        </ng-template>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </ng-container>
+  <ng-template #emptyCart>
+    <div class="empty-cart">
+      <div>Votre panier est vide.</div>
+      <button routerLink="/" mat-stroked-button color="primary">
+        <mat-icon>shopping_cart</mat-icon> Continuer vos achats
+      </button>
+    </div>
+  </ng-template>
+</div>
