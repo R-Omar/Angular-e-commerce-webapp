@@ -5,8 +5,8 @@ import { Category } from '../models/category';
 
 @Injectable()
 export class ProductService {
-  private productUrl = 'http://localhost:3001/api/products';
-  private categoryUrl = 'http://localhost:3001/api/categories';
+  private productUrl  = 'https://e-com-webapp-backend.herokuapp.com/api/products';
+  private categoryUrl = 'https://e-com-webapp-backend.herokuapp.com/api/categories';
 
   selectedCategory: Category;
 

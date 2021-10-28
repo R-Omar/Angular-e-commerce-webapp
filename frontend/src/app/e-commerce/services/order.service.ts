@@ -6,7 +6,7 @@ import { Order } from '../models/order';
 @Injectable()
 export class OrderService {
   constructor(private http: HttpClient) {}
-  private ordersUrl = 'http://localhost:3001/api/orders';
+  private ordersUrl = 'https://e-com-webapp-backend.herokuapp.com/api/orders';
 
   getOrdersByUserId(id: String) {
     return this.http.get<Order[]>(`${this.ordersUrl}/${id}`);
