@@ -4,7 +4,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-const port = 8080;
+const port = process.env.PORT || 3001;
 
 //import routes
 const authRoute = require("./routes/auth");
