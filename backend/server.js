@@ -38,4 +38,8 @@ app.use("/api/products", productRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/orders", orderRoute);
 
-app.listen(port, () => console.log("Sever up and runing on port " + port));
+let server = app.listen(port, () =>{
+  let host = server.address().address;
+  let port = server.address().port;
+  console.log("server is listening at host " + host + " port " + port);
+});
