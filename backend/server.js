@@ -1,8 +1,10 @@
 const express = require("express");
-var cors = require("cors");
+const app = express();
+const cors = require("cors");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
+const port = 8080;
 
 //import routes
 const authRoute = require("./routes/auth");
@@ -10,8 +12,6 @@ const userInfoRoute = require("./routes/userInfo");
 const productRoute = require("./routes/product");
 const categoryRoute = require("./routes/category");
 const orderRoute = require("./routes/order");
-
-const app = express();
 
 dotenv.config();
 
@@ -38,4 +38,4 @@ app.use("/api/products", productRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/orders", orderRoute);
 
-app.listen(3001, () => console.log("Sever up and runing"));
+app.listen(port, () => console.log("Sever up and runing on port " + port));
