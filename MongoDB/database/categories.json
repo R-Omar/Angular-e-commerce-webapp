@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "5fe632edcb93c1a34c4dfa42"
+  },
+  "icon": "category",
+  "name": "Shoes"
+},{
+  "_id": {
+    "$oid": "5fe63339cb93c1a34c4dfa43"
+  },
+  "icon": "category",
+  "name": "Shoes"
+}]

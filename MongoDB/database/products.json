@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "5fe63388cb93c1a34c4dfa44"
+  },
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSr-iFW5W8n3_jxNKiclAP_k71Fi9PGcojsMUC-vb8zbwJthbBd",
+  "descritption": "With PS4, gaming becomes a lot more power packed. Ultra-fast processors, high-performance system, real-time game sharing, remote play and lots more makes it the ultimate companion device.",
+  "price": {
+    "$numberDecimal": "240.99"
+  },
+  "quantity": 1,
+  "category": {
+    "$oid": "5fe632edcb93c1a34c4dfa42"
+  },
+  "name": "Playtation 4"
+},{
+  "_id": {
+    "$oid": "5fe63565cb93c1a34c4dfa45"
+  },
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8ufSADR9EyusxEfgMLErqISEcKVzQyjoD81zWcdpBvuEGBnYP",
+  "descritption": "Own the Xbox One X Star Wars Jedi: Fallen Order™ Bundle and step into the role of a Jedi Padawan who narrowly escaped the purge of Order 66. This bundle includes a full-game download of Star Wars Jedi: Fallen Order™ Deluxe Edition, a 1-month trial of Xbox Game Pass for console and Xbox Live Gold, and 1-month of EA Access.***",
+  "price": {
+    "$numberDecimal": "250"
+  },
+  "quantity": 21,
+  "category": {
+    "$oid": "5fe632edcb93c1a34c4dfa42"
+  },
+  "name": "Xbox One X Star Wars Jedi"
+},{
+  "_id": {
+    "$oid": "5fe635c3cb93c1a34c4dfa46"
+  },
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
+  "descritption": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
+  "price": {
+    "$numberDecimal": "39.9"
+  },
+  "quantity": 62,
+  "category": {
+    "$oid": "5fe632edcb93c1a34c4dfa42"
+  },
+  "name": "MEN'S ADIDAS RUNNING KALUS SHOES"
+}]
