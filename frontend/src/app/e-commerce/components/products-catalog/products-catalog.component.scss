@@ -2,20 +2,37 @@
   margin: 200px 0px;
 }
 
-.mat-form-field {
-  font-size: 14px;
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
 }
 
-mat-toolbar {
-  justify-content: space-between;
+.mat-form-field{
+  font-size: 14px;
+  margin-bottom: -1.25em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-oneline {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 #filter {
-  height: 40px;
   font-size: 16px;
   border-radius: 5px;
-  min-width: 500px;
-  border: 2px solid grey;
-  color: #6f768d;
-  padding: 0 8px;
+  width: 400px;
+  border: 1px solid grey;
+  padding: 7px;
+  margin: 0 10px;
+  min-width: 300px;
+}
+
+#product-catalog{
+  margin: 20px ;
 }

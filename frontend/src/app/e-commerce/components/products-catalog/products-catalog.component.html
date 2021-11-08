@@ -1,5 +1,5 @@
 <mat-toolbar color="default">
-  <span>{{
+  <span class="text-oneline">{{
     currentCategory ? currentCategory.name : "Toutes nos catégories"
   }}</span>
 
@@ -12,18 +12,21 @@
   />
 
   <mat-form-field id="products-per-page">
-    <mat-label>Produits par ligne</mat-label>
+    <mat-label>Nombre de produits par ligne</mat-label>
     <mat-select [(value)]="gridColumns">
       <mat-option [value]="3">3 par ligne</mat-option>
       <mat-option [value]="4">4 par ligne </mat-option>
+      <mat-option [value]="5">5 par ligne </mat-option>
     </mat-select>
   </mat-form-field>
 </mat-toolbar>
 
 <mat-divider></mat-divider>
 
-<mat-grid-list cols="{{ gridColumns }}" rowHeight="440px">
-  <mat-grid-tile *ngFor="let product of searchedProducts">
-    <app-product-card [product]="product"></app-product-card
-  ></mat-grid-tile>
-</mat-grid-list>
+<div id="product-catalog" >
+  <div fxLayout="row wrap" fxLayoutGap="20px grid">
+    <div fxFlex="{{ 1/gridColumns*100 }}" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="25%"  *ngFor="let product of searchedProducts">
+      <app-product-card [product]="product"></app-product-card>
+    </div>
+  </div>
+</div>

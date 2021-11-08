@@ -1,6 +1,6 @@
 <div>
   <mat-toolbar color="default">
-    <span>Votre Panier</span>
+    <span>Votre panier</span>
   </mat-toolbar>
   <mat-divider> </mat-divider>
   <ng-container *ngIf="getCartItemsCount() > 0; else emptyCart">
@@ -9,7 +9,7 @@
         <mat-grid-tile colspan="1"
           ><img class="item-image" src="{{ item.product.image }}"
         /></mat-grid-tile>
-        <mat-grid-tile colspan="5">
+        <mat-grid-tile colspan="4">
           <div class="item-info">
             <h3 class="item-name">{{ item.product.name }}</h3>
             <p class="item-stock">
@@ -42,7 +42,7 @@
             <span>{{ item.quantity * item.product.price }}€</span>
           </div>
         </mat-grid-tile>
-        <mat-grid-tile colspan="1">
+        <mat-grid-tile colspan="2">
           <button
             mat-icon-button
             color="warn"
@@ -58,17 +58,17 @@
 
     <mat-grid-list cols="10" rowHeight="100px">
       <mat-grid-tile colspan="1"></mat-grid-tile>
-      <mat-grid-tile colspan="5"></mat-grid-tile>
+      <mat-grid-tile colspan="4"></mat-grid-tile>
       <mat-grid-tile colspan="2">
         <div class="sub-total">
           <div>Sous-total :</div>
           <div>({{ getCartItemsCount() }} articles)</div>
         </div>
       </mat-grid-tile>
-      <mat-grid-tile colspan="1" class="sub-total"
-        >{{ getCartItemsTotal() }}€</mat-grid-tile
-      >
-      <mat-grid-tile colspan="1">
+      <mat-grid-tile colspan="1" class="sub-total">
+        {{ getCartItemsTotal() }}€
+      </mat-grid-tile>
+      <mat-grid-tile colspan="2">
         <ng-container *ngIf="isUserLoggedIn(); else logIn">
           <button mat-raised-button color="primary" (click)="submitOrder()">
             <mat-icon>local_shipping</mat-icon> Commander
@@ -76,7 +76,7 @@
         </ng-container>
         <ng-template #logIn>
           <button mat-raised-button color="primary" routerLink="/login">
-            <mat-icon>power_settings_new</mat-icon> Se connecter
+            Se connecter
           </button>
         </ng-template>
       </mat-grid-tile>

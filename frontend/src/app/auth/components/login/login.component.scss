@@ -11,12 +11,13 @@
 .form-actions {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .home-link {
     font-size: 14px;
   }
 
   .register-btn {
-    margin-right: 24px;
+    margin-right: 10px;
   }
 }

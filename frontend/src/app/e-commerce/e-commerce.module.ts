@@ -27,6 +27,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { OrderService } from './services/order.service';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatSnackBarModule,
     MatExpansionModule,
+    FlexLayoutModule
   ],
   providers: [
     {

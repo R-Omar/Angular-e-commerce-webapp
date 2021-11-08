@@ -1,7 +1,10 @@
-button {
-    margin: 0px 15px;
+mat-toolbar{
+    display: flex;
+    justify-content: space-between ;
+    height: 50px;
 }
 
-.spacer {
-    flex: 1 1 auto;
-  }
+.button-label {
+    padding-left: 5px;
+    padding-right: 10px;
+}

@@ -9,8 +9,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class AuthService {
-  private  userUrl = environment.apiUrl + '/api/user/';
-  private  userInfoUrl = environment.apiUrl + '/api/userInfo';
+  private  userUrl = environment.apiUrl + '/user/';
+  private  userInfoUrl = environment.apiUrl + '/userInfo';
 
   isLoggedIn = false;
   redirectUrl: string;
