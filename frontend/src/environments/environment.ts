@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'https://e-com-webapp-backend.herokuapp.com/api'
+  apiUrl: 'http://localhost:3001/api'
 };
