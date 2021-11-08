@@ -19,7 +19,9 @@ registerLocaleData(localeFr);
     ECommerceModule,
     AppRoutingModule,
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
+  providers: [
+    { provide: LOCALE_ID, useValue: 'fr-FR' }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
