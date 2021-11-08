@@ -1,8 +1,15 @@
   <mat-card class="mat-elevation-z4"> 
-    <mat-card-title class="text-oneline" (click)="onNavigate(product._id)">{{ product.name }}</mat-card-title>
-    <img  mat-card-image [src]="product.image" alt="product's picture" (click)="onNavigate(product._id)"/>
+    <div class="title-container">
+      <mat-card-title class="text-oneline" (click)="onNavigate(product._id)">{{ product.name }}</mat-card-title>
+    </div>
+    <div class="img-container">
+      <img  mat-card-image [src]="product.image" alt="product's picture" (click)="onNavigate(product._id)"/>
+    </div>
     <mat-card-content>
-      <p><em>Prix: {{ product.price }} €</em></p>
+      <p class="description"><strong>Prix:</strong> {{ product.price }}€
+        <br>
+        <strong>Description:</strong> {{product.description}}
+      </p>
     </mat-card-content>
     <mat-card-actions>
       <button

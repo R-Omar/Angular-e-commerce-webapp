@@ -1,6 +1,18 @@
+.img-container{
+  height: 150px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
 img{
-  margin: 0 10px 10px 10px;
-  width: calc(100% - 20px);
+  width: auto;
+  height: 100%;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  text-align: center;
 }
 
 img:hover{
@@ -22,6 +34,15 @@ button {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-height: 1.8;
 }
 
 .mat-card-content{

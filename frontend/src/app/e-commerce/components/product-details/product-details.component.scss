@@ -1,14 +1,24 @@
-.product_view .modal-dialog {
-  width: 800px;
+.modal-dialog{
+  width: 100%;
 }
 .pre-cost {
   text-decoration: line-through;
   color: #a5a5a5;
 }
-.space-ten {
-  padding: 10px 0;
-}
 
 .modal-title {
   font-size: 18px;
+}
+
+.product_content{
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.modal-title{
+  font-weight: bold;
+}
+
+button{
+  margin-right: 10px;
 }
