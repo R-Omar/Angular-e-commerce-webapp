@@ -2,11 +2,12 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../models/product';
 import { Category } from '../models/category';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class ProductService {
-  private productUrl  = 'https://e-com-webapp-backend.herokuapp.com/api/products';
-  private categoryUrl = 'https://e-com-webapp-backend.herokuapp.com/api/categories';
+  private productUrl  = environment.apiUrl + '/products';
+  private categoryUrl = environment.apiUrl + '/categories';
 
   selectedCategory: Category;
 

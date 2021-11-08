@@ -2,11 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CartItem } from '../models/cart-item';
 import { Order } from '../models/order';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class OrderService {
+  private ordersUrl = environment.apiUrl + '/api/orders';
+
   constructor(private http: HttpClient) {}
-  private ordersUrl = 'https://e-com-webapp-backend.herokuapp.com/api/orders';
 
   getOrdersByUserId(id: String) {
     return this.http.get<Order[]>(`${this.ordersUrl}/${id}`);
