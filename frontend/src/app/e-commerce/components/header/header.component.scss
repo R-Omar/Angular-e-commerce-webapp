@@ -2,9 +2,14 @@ mat-toolbar{
     display: flex;
     justify-content: space-between ;
     height: 50px;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
 
-.button-label {
-    padding-left: 5px;
-    padding-right: 10px;
+
+
+@media (max-width: 500px){
+    .button-label {
+        display: none;
+    }
 }
