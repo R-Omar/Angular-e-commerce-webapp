@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "618911d90b2fe91e2850de8d"
+  },
+  "name": "omar",
+  "email": "omar@outlook.com",
+  "password": "$2a$10$uImzDPTnos39ymVamzGYXeAikObPerCusrHxUT0qlVq2q7TOzTxKG",
+  "role": "USER",
+  "date": {
+    "$date": "2021-11-08T12:02:33.703Z"
+  },
+  "__v": 0
+}]

@@ -2,12 +2,42 @@
   "_id": {
     "$oid": "5fe632edcb93c1a34c4dfa42"
   },
-  "icon": "category",
-  "name": "Shoes"
+  "icon": "monitor",
+  "name": "Moniteurs"
 },{
   "_id": {
-    "$oid": "5fe63339cb93c1a34c4dfa43"
+    "$oid": "61899b1f3e9206b554fdf26e"
   },
-  "icon": "category",
-  "name": "Shoes"
+  "icon": "keyboard",
+  "name": "Claviers"
+},{
+  "_id": {
+    "$oid": "61899b603e9206b554fdf26f"
+  },
+  "icon": "mouse",
+  "name": "Souris"
+},{
+  "_id": {
+    "$oid": "61899ba83e9206b554fdf270"
+  },
+  "icon": "printer",
+  "name": "Imprimantes"
+},{
+  "_id": {
+    "$oid": "61899bf93e9206b554fdf271"
+  },
+  "icon": "router",
+  "name": "Équipements réseaux"
+},{
+  "_id": {
+    "$oid": "61899c403e9206b554fdf272"
+  },
+  "icon": "cable",
+  "name": "Câbles & Adaptateurs"
+},{
+  "_id": {
+    "$oid": "61899cb63e9206b554fdf273"
+  },
+  "icon": "videogame_asset",
+  "name": "Consoles de jeux "
 }]

@@ -2,42 +2,224 @@
   "_id": {
     "$oid": "5fe63388cb93c1a34c4dfa44"
   },
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSr-iFW5W8n3_jxNKiclAP_k71Fi9PGcojsMUC-vb8zbwJthbBd",
-  "descritption": "With PS4, gaming becomes a lot more power packed. Ultra-fast processors, high-performance system, real-time game sharing, remote play and lots more makes it the ultimate companion device.",
+  "image": "https://www.alternate.fr/p/600x600/2/2/Sony_DualSense_Controller__Manette_de_jeu@@1651222.jpg",
   "price": {
-    "$numberDecimal": "240.99"
+    "$numberDecimal": "72.90"
   },
   "quantity": 1,
   "category": {
-    "$oid": "5fe632edcb93c1a34c4dfa42"
+    "$oid": "61899cb63e9206b554fdf273"
   },
-  "name": "Playtation 4"
+  "name": "Sony DualSense Controller, Manette de jeu",
+  "description": "Grâce à la manette sans fil DualSense innovante de la PlayStation 5, vous pouvez profiter d'une expérience de jeu plus intense et plus immersive. Grâce à la rétroaction haptique dans certains titres PS5, vous pouvez ressentir les effets de l'action du jeu par une rétroaction sensorielle dynamique. Dans vos mains, ces vibrations dynamiques simulent une variété de sensations, des environnements au recul de différentes armes. De plus, des boutons de déclenchement adaptatifs immersifs offrent des niveaux de résistance dynamiques qui simulent les effets physiques de l'activité en jeu dans certains jeux PS5. Qu'il s'agisse de serrer une corde à l'arc ou de ralentir une voiture qui va trop vite, vous vous sentirez physiquement connecté aux actions à l'écran.\n\nIl est maintenant plus facile que jamais de discuter en ligne avec des amis, en parlant directement dans le microphone intégré ou en connectant un casque au port 3,5 mm. L'enregistrement vocal peut être activé et désactivé instantanément grâce à un bouton muet spécial. Le contrôleur sans fil DualSense comporte également le bouton \"Créer\". Basé sur le succès du bouton SHARE, il offre de nouvelles façons de créer du contenu de jeu et de diffuser des aventures en direct au monde entier. Les autres caractéristiques du contrôleur sans fil DualSense comprennent un haut-parleur intégré et des capteurs de mouvement intégrés, le tout dans un design éprouvé et confortable."
 },{
   "_id": {
-    "$oid": "5fe63565cb93c1a34c4dfa45"
+    "$oid": "61899d6b3e9206b554fdf27a"
   },
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8ufSADR9EyusxEfgMLErqISEcKVzQyjoD81zWcdpBvuEGBnYP",
-  "descritption": "Own the Xbox One X Star Wars Jedi: Fallen Order™ Bundle and step into the role of a Jedi Padawan who narrowly escaped the purge of Order 66. This bundle includes a full-game download of Star Wars Jedi: Fallen Order™ Deluxe Edition, a 1-month trial of Xbox Game Pass for console and Xbox Live Gold, and 1-month of EA Access.***",
+  "image": "https://www.alternate.fr/p/600x600/q/Microsoft_Xbox_Elite_Wireless_Controller_Series_2__Manette_de_jeu@@qozm0i_1.jpg",
   "price": {
-    "$numberDecimal": "250"
+    "$numberDecimal": "185.90"
   },
-  "quantity": 21,
+  "quantity": 10,
+  "category": {
+    "$oid": "61899cb63e9206b554fdf273"
+  },
+  "name": "Microsoft Xbox Elite Wireless Controller Series 2, Manette de jeu",
+  "description": "Conçue pour répondre aux besoins des joueurs compétitifs d'aujourd'hui, la manette sans fil Xbox Elite série 2 offre plus de 30 nouvelles façons de jouer comme un pro. Adaptez la manette à votre style de jeu préféré grâce aux nouvelles formes interchangeables de la manette et de la palette. Enregistrez jusqu'à 3 profils personnalisés et 1 profil par défaut sur le contrôleur et passez de l'un à l'autre à l'aide du bouton Profil. Utilisez la technologie Xbox Wireless, Bluetooth ou le câble USB-C inclus pour jouer sur votre Xbox One et vos appareils Windows 10."
+},{
+  "_id": {
+    "$oid": "61899df13e9206b554fdf27b"
+  },
+  "image": "https://www.alternate.fr/p/600x600/q/Nintendo_Switch_Lite__Console_de_jeu@@qs-n0j.jpg",
+  "price": {
+    "$numberDecimal": "216.90"
+  },
+  "quantity": 10,
+  "category": {
+    "$oid": "61899cb63e9206b554fdf273"
+  },
+  "name": "Nintendo Switch Lite, Console de jeu",
+  "description": "Le Nintendo Switch Lite rose est le modèle compact et léger de la famille des Nintendo Switch à commandes intégrées. Le Switch Lite peut jouer à n'importe quel titre Nintendo Switch compatible avec le mode portable - idéal pour les personnes qui voyagent beaucoup et qui veulent jouer en ligne ou localement avec des amis et des membres de leur famille qui ont un Nintendo Switch à la maison. Jusqu'à huit consoles Nintendo Switch ou Nintendo Switch Lite peuvent être connectées pour jouer avec ou contre les autres. Comme le Nintendo Switch Lite est une console conçue spécifiquement comme une console portable, elle ne permet pas de lire la télévision."
+},{
+  "_id": {
+    "$oid": "61899e963e9206b554fdf27c"
+  },
+  "image": "https://m.media-amazon.com/images/I/51zylG5gxfS._AC_SL1000_.jpg",
+  "price": {
+    "$numberDecimal": "499.90"
+  },
+  "quantity": 3,
+  "category": {
+    "$oid": "61899cb63e9206b554fdf273"
+  },
+  "name": "Sony PlayStation 5 Édition Standard",
+  "description": "PlayStation 5 avec lecteur Blu-ray. Une console révolutionnaire entièrement centrée sur le joueur pour des expériences encore plus immersives et connectées avec vos jeux PS5 et PS4 rétrocompatibles\nTemps de chargement quasi instantanés pour les jeux PS5 (installés) grâce à un disque SSD ultra-haute vitesse, Interface utilisateur conçue pour fournir un accès immédiat à presque toutes les options du système sans quitter votre partie\nNiveau de réalisme inégalé grâce à la technologie de rendu de la lumière Ray Tracing, Prise en charge de la technologie HDR pour des couleurs vives et dynamiques, Possibilité de jouer en 4K et 8K sur les jeux et écrans compatibles"
+},{
+  "_id": {
+    "$oid": "6189b25e3e9206b554fdf27d"
+  },
+  "image": "https://www.alternate.fr/p/600x600/9/9/Samsung_Odyssey_G7A_LS28AG700NUXEN_28__4K_Ultra_HD___Moniteur_gaming@@1765199_31.jpg",
+  "price": {
+    "$numberDecimal": "771.00"
+  },
+  "quantity": 5,
   "category": {
     "$oid": "5fe632edcb93c1a34c4dfa42"
   },
-  "name": "Xbox One X Star Wars Jedi"
+  "name": "Samsung Odyssey G7A 4K Ultra HD",
+  "description": "Le Samsung Odyssey G7A S28AG700NU est un véritable moniteur gaming avec une reproduction d'image brillante, un panneau rapide comme l'éclair et tout ce qu'il faut pour faire battre le cœur d'un gamer plus vite. Le Samsung Odyssey G7A S28AG700NU est doté d'une dalle IPS de 70 cm (28\") avec technologie LED et résolution UltraHD (3840 x 2160 pixels). Ainsi, les jeux, les films, les photos et tout le reste sont toujours d'une grande netteté. Pour afficher les couleurs de la meilleure façon possible, le moniteur est compatible HDR et devient exceptionnellement lumineux. La dalle impressionne par son faible temps de réponse de 1 ms (MPRT) et son taux de rafraîchissement rapide de 144 Hz. L'Odyssey G7A S28AG700NU est équipé de la technologie FreeSync d'AMD et est compatible avec la technologie G-Sync de NVIDIA, ce qui signifie que les jeux sont affichés de manière absolument fluide."
 },{
   "_id": {
-    "$oid": "5fe635c3cb93c1a34c4dfa46"
+    "$oid": "6189b3323e9206b554fdf286"
   },
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
-  "descritption": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
+  "image": "https://www.alternate.fr/p/600x600/7/8/MSI_Optix_MPG341CQR_86_4_cm__34___3440_x_1440_pixels_UltraWide_Quad_HD_LCD_Noir__Moniteur_gaming@@1568187.jpg",
   "price": {
-    "$numberDecimal": "39.9"
+    "$numberDecimal": "720.00"
   },
-  "quantity": 62,
+  "quantity": 5,
   "category": {
     "$oid": "5fe632edcb93c1a34c4dfa42"
   },
-  "name": "MEN'S ADIDAS RUNNING KALUS SHOES"
+  "name": "MSI Optix MPG341CQR",
+  "description": "4 cm (34\"), Résolution de l'écran: 3440 x 1440 pixels, Type HD: UltraWide Quad HD, Technologie d'affichage: LCD, Surface d'affichage: Mat, Temps de réponse: 1 ms, Format d'image: 21:9, Angle de vision horizontal: 178°, Angle de vision vertical: 178°. Concentrateur USB intégré, Version du concentrateur USB: 3.2 Gen 1 (3.1 Gen 1). Montage VESA, Réglage de la hauteur. Couleur du produit: Noir"
+},{
+  "_id": {
+    "$oid": "6189b3ac3e9206b554fdf287"
+  },
+  "image": "https://www.alternate.fr/p/600x600/v/Dell_UltraSharp_U2419H_23_8___Moniteur_LED@@v5ld5800_30.jpg",
+  "price": {
+    "$numberDecimal": "246.90"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "5fe632edcb93c1a34c4dfa42"
+  },
+  "name": "Dell UltraSharp U2419H 24\"",
+  "description": "Le moniteur Dell U2419H offre de sérieuses qualités pour vous accompagner parfaitement dans vos besoins professionnels. En plus d'une résolution Full HD, ce modèle 23.8 pouces se pare d'une connectique complète avec ports HDMI et DisplayPort. Appréciez ses performances et laissez-vous séduire par le design moderne et épuré assurant un rendu qualitatif sur votre bureau. Profitez de bords-fins pour une visibilité optimale et d'un confort oculaire supérieur pour des heures d'utilisation en toute sérénité. Il bénéficie également de multiples possibilités d'ajustement pour un confort sur mesure."
+},{
+  "_id": {
+    "$oid": "6189b3f23e9206b554fdf288"
+  },
+  "image": "https://www.alternate.fr/p/600x600/7/0/Inter_Tech_NK_2000ME_clavier_USB_QWERTZ_Noir__Clavier_gaming@@1696007.jpg",
+  "price": {
+    "$numberDecimal": "30.99"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899b1f3e9206b554fdf26e"
+  },
+  "name": "Inter-Tech NK-2000ME clavier USB",
+  "description": "Interrupteur à clé de clavier: Clavier mécanique, Disposition des touches du clavier: QWERTZ, Nombre de touches du clavier: 104. Type de rétro: LED RGB. Longueur de câble: 1,6 m. Utilisation recommandée: Jouer. Couleur du produit: Noir"
+},{
+  "_id": {
+    "$oid": "6189b4963e9206b554fdf28d"
+  },
+  "image": "https://www.alternate.fr/p/600x600/4/5/Apple_Magic_clavier_USB___Bluetooth_Allemand_Aluminium__Blanc@@1773654.jpg",
+  "price": {
+    "$numberDecimal": "173.90"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899b1f3e9206b554fdf26e"
+  },
+  "name": "Apple Magic clavier USB",
+  "description": "Le Magic Keyboard est désormais disponible avec Touch ID et vous offre ainsi une méthode d’authentification simple, rapide et sécurisée pour vos connexions et vos achats. Le Magic Keyboard avec Touch ID et pavé numérique vous garantit une frappe d’un confort et d’une précision remarquables. Son format étendu intègre des commandes de navigation pour parcourir rapidement les documents, ainsi que des touches fléchées de taille standard, très pratiques pour les jeux vidéo. Quant au pavé numérique, il est idéal pour les feuilles de calcul et les applications financières. Sans fil et rechargeable, le clavier intègre également une batterie longue durée et fonctionne environ un mois ou plus entre deux charges. Il s’associe automatiquement à votre Mac, pour que vous puissiez vous mettre au travail sans attendre. Et il est livré avec un câble tissé USB‑C vers Lightning qui vous permet de le jumeler et de le recharger en le branchant sur le port USB‑C de votre Mac."
+},{
+  "_id": {
+    "$oid": "6189b4ea3e9206b554fdf28e"
+  },
+  "image": "https://www.alternate.fr/p/600x600/8/5/Apple_Magic_Keyboard_clavier_Bluetooth_QWERTZ_Allemand_Blanc@@1773658.jpg",
+  "price": {
+    "$numberDecimal": "149.90"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899b1f3e9206b554fdf26e"
+  },
+  "name": "Apple Magic clavier USB 60%",
+  "description": "Le Magic Keyboard est désormais disponible avec Touch ID et vous offre ainsi une méthode d’authentification simple, rapide et sécurisée pour vos connexions et vos achats. Le Magic Keyboard avec Touch ID vous garantit une frappe d’un confort et d’une précision remarquables. Sans fil et rechargeable, il intègre une batterie longue durée et fonctionne environ un mois ou plus entre deux charges. Il s’associe automatiquement à votre Mac, pour que vous puissiez vous mettre au travail sans attendre. Et il est livré avec un câble tissé USB‑C vers Lightning qui vous permet de le jumeler et de le recharger en le branchant sur le port USB‑C de votre Mac."
+},{
+  "_id": {
+    "$oid": "6189b58a3e9206b554fdf28f"
+  },
+  "image": "https://crn.loadbee.com/v2/sharkoon/GzcQrw_mXYuPhZshixcaySrFXlvJub2pp8I-ua47_cU/rs:fit:604:400:0:0/aHR0cHM6Ly9jZG4ubG9hZGJlZS5jb20vc2hhcmtvb24vYjc2Y2YyMjMwZTg5YTQ5OGYxNjk1ZWEyMjljOGM4MGZjYjhjZDBmNS5qcGc.webp",
+  "price": {
+    "$numberDecimal": "10.29"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899b603e9206b554fdf26f"
+  },
+  "name": "Sharkoon SHARK Force II",
+  "description": "Interface de l'appareil: USB Type-A, Résolution en mouvement: 4200 DPI, Type de boutons: Boutons poussoirs, Quantité de boutons programmables: 6, Type Scroll: Roue, Accélération (max): 10 G. Source d'alimentation: Cable. Couleur du produit: Blanc"
+},{
+  "_id": {
+    "$oid": "6189b61f3e9206b554fdf298"
+  },
+  "image": "https://www.alternate.fr/p/600x600/4/1/Logitech_MX_Master_3_Advanced__Souris@@1579714.jpg",
+  "price": {
+    "$numberDecimal": "82.00"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899b603e9206b554fdf26f"
+  },
+  "name": "Logitech MX Master 3",
+  "description": "Avec la Logitech MX Master 3, profitez d'une précision instantanée et d'un potentiel infini. Étudiée pour les designers et conçue pour les codeurs, c'est la souris de la série Master la plus sophistiquée à ce jour. Elle vous permet notamment de contrôler avec fluidité jusqu'à 3 ordinateurs différents à l'aide d'une seule souris. Copiez et collez du texte d'un écran à un autre, ou encore transférez des fichiers d'un ordinateur à un autre avec une facilité déconcertante. Conçue pour offrir précision, contrôle et confort aux utilisateurs expérimentés, la souris sans fil Logitech MX Master 3 se caractérise notamment par une forme parfaitement adaptée à la main, des fonctionnalités avancées et une conception incroyable."
+},{
+  "_id": {
+    "$oid": "6189b6763e9206b554fdf299"
+  },
+  "image": "https://www.alternate.fr/p/600x600/w/Epson_EcoTank_ET_2750__Imprimante_multifonction@@wt-enf.jpg",
+  "price": {
+    "$numberDecimal": "273.00"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899ba83e9206b554fdf270"
+  },
+  "name": "Epson EcoTank ET-2750",
+  "description": "Dites adieu aux cartouches Bénéficiez de recharges moins fréquentes avec la gamme EcoTank. Avec ses réservoirs d’encre ultra haute capacité, vous pouvez dire adieu aux cartouches. Ultra-économique Cette imprimante économique permet d’économiser 90 % sur les coûts de l’encre en moyenne1. Avec un coût par page extrêmement bas, l'imprimante et l'encre fournie dans le carton assure un excellent volume d’impression de 14 000 pages en monochrome et 5 200 en couleur2. Découvrez la nouvelle génération d’imprimantes EcoTank Avec leur réservoir d’encre désormais situé à l’avant, les imprimantes EcoTank n’ont jamais été aussi compactes et faciles à utiliser. Dans le cadre de la protection contre les fuites et les déversements, la gamme se distingue par un système de remplissage amélioré conçu pour des recharges simples. En outre, les nouvelles bouteilles sont conçues de telle façon que seules les couleurs correctes peuvent être insérées. Grâce à l’affichage du niveau de l’encre en façade, il est désormais facile de savoir quand une recharge est nécessaire. Et avec les encres pigmentaires noires et les encres couleur à base de colorants, les couleurs sont éclatantes et les textes nets et clairs. Imprimez où que vous soyez Avec Wi-Fi et Wi-Fi Direct, envoyez vos documents à imprimer depuis des appareils mobiles via l’application Epson iPrint3. Par ailleurs, avec son écran LCD 3,7 cm et son lecteur de carte SD, l’impression sans ordinateur est simplifiée. Résultats de qualité Avec une tête d’impression Micro Piezo, EcoTank offre une solution d’impression fiable accompagnée d’une garantie de 1 an. Vous pouvez également vous appuyer sur ce modèle pour produire rapidement des impressions Recto Verso."
+},{
+  "_id": {
+    "$oid": "6189b6f33e9206b554fdf2a0"
+  },
+  "image": "https://www.alternate.fr/p/600x600/l/Netgear_GS108@@lgsn02.jpg",
+  "price": {
+    "$numberDecimal": "32.79"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899bf93e9206b554fdf271"
+  },
+  "name": "Netgear GS108GE, Switch",
+  "description": "Maintenant, même les réseaux de petites tailles peuvent bénéficier des plus haut débits. Avec le switch Gigabit Ethernet de NETGEAR, vous construisez un réseau performant à 1000, 100 ou 10 Mbps pour transférer vos plus gros fichiers sans souci. Ce switch est livré avec des fonctionnalités faciles d’emploi pour vous simplifier le travail. Son boîtier est compact. Il convient pour tous les types de bureaux. Il se refroidit seul, sans ventilateur et vous apportera silence et discrétion."
+},{
+  "_id": {
+    "$oid": "6189b7663e9206b554fdf2b2"
+  },
+  "image": "https://www.alternate.fr/p/600x600/r/Sharkoon_4044951014392_c_ble_de_r_seau_Vert_10_m_Cat5e_SF_UTP__S_FTP_@@rdlg0006.jpg",
+  "price": {
+    "$numberDecimal": "14.49"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899c403e9206b554fdf272"
+  },
+  "name": "Sharkoon câble de réseau vert 10m",
+  "description": "Câble standard: Cat5e, Blindage du câble: SF/UTP (S-FTP), Connecteur 1: RJ-45, Connecteur 2: RJ-45."
+},{
+  "_id": {
+    "$oid": "6189b76b3e9206b554fdf2b3"
+  },
+  "image": "https://www.alternate.fr/p/600x600/r/Sharkoon_4044951021437__C_ble@@rdvc4016.jpg",
+  "price": {
+    "$numberDecimal": "17.49"
+  },
+  "quantity": 5,
+  "category": {
+    "$oid": "61899c403e9206b554fdf272"
+  },
+  "name": "Sharkoon câble HDMI",
+  "description": "High-Definition Multimedia Interface (HDMI) est une connexion numérique et est adapté pour la connexion des composants audio et vidéo numériques à un téléviseur ou un projecteur. HDMI combine la vidéo haute définition et audio multi-canal dans une seule interface numérique pour offrir une qualité numérique cristalline sur un seul câble. Ce câble HDMI High Speed avec Ethernet Sharkoon supporte tous les formats audio et résolutions HD jusqu'à 2160p24 (4K) et 1080p60 (Full HD). Les connecteurs plaqués or assurent une transmission numérique parfaite."
 }]
