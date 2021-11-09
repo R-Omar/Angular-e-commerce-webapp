@@ -20,8 +20,9 @@
     <a
       mat-list-item
       class="fs-14"
-      routerLink="/"
+      routerLink="/all-categories"
       (click)="onCategorySelect(null)"
+      routerLinkActive="active"
     >
       <mat-icon mat-list-icon>devices</mat-icon>
       <div mat-line>Toutes nos catégories</div>
@@ -33,6 +34,7 @@
       *ngFor="let category of categories"
       routerLink="/category/{{ category._id }}"
       (click)="onCategorySelect(category)"
+      routerLinkActive="active"
     >
       <mat-icon mat-list-icon>{{ category.icon }}</mat-icon>
       <div mat-line>{{ category.name }}</div>

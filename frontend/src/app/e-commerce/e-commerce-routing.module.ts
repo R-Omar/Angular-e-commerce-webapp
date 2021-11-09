@@ -17,6 +17,10 @@ const routes: Routes = [
         component: ProductsCatalogComponent,
       },
       {
+        path: 'all-categories',
+        component: ProductsCatalogComponent,
+      },
+      {
         path: 'category/:id',
         component: ProductsCatalogComponent,
       },
