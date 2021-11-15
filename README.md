@@ -1,4 +1,4 @@
-# Description
+## Description
 An e-commerce web app developed using Angular, ExpressJS, Angular Material and MongoDB.
 
 # Live Demo
