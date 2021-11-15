@@ -6,7 +6,7 @@ Link: [https://e-com-webapp.herokuapp.com/](https://e-com-webapp.herokuapp.com/)
 Some accounts for testing, please to not change emails or passwords on the live demo:
 | Role        | Email                   | Password |
 |-------------|-------------------------|----------|
-| admin       | admin@gmail.com         | admin    |
+| admin       | admin@gmail.com         | 123456   |
 | customer    | customer@gmail.com      | 123456   |
 
 # Technologies, frameworks and libraries
