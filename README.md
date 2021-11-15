@@ -1,7 +1,7 @@
 ## Description
 An e-commerce web app developed using Angular, ExpressJS, Angular Material and MongoDB.
 
-# Live Demo
+## Live Demo
 Link: [https://e-com-webapp.herokuapp.com/](https://e-com-webapp.herokuapp.com/)<br>
 Some accounts for testing, please to not change emails or passwords on the live demo:
 | Role        | Email                   | Password |
@@ -9,12 +9,12 @@ Some accounts for testing, please to not change emails or passwords on the live 
 | admin       | admin@gmail.com         | 123456   |
 | customer    | customer@gmail.com      | 123456   |
 
-# Technologies, frameworks and libraries
+## Technologies, frameworks and libraries
 - Frontend: Angular, Angular Material, Bootsrap, jQuery...
 - backend: ExpressJS, Mongoose, bcryptjs, dotenv...
 - MongoDB Database
 
-# To run locally
+## To run locally
 1. Make sure you have NodeJS and angular-cli installed
 2. Clone the project
 3. Create a local or a cloud MongoDB database and populate it using the collections JSON files which can be found in the directory MongoDB/Database.
